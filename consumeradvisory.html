@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="google" value="notranslate">
@@ -18,11 +18,11 @@
   
   <body>
 
-  <!--header-->
-<div class="col-12-md">
-  <div id="header" class="row">
+<!--header-->
+<div id="header" class="col-12-md">
+  <div  class="row">
     <!--logo-->
-    <img id="logo" class="img-responsive" src="http://partnership.vcu.edu/media/partnership/img/header.png" alt="Partnership for People with Disabilities department logo" />
+    <a href="index.html"><img id="logo" class="img-responsive" src="http://partnership.vcu.edu/media/partnership/img/header.png" alt="Partnership for People with Disabilities department logo" /></a>
     <!--end logo-->
   </div>
 
@@ -50,7 +50,8 @@
         </div>
         <form class="navbar-form navbar-left" role="search">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
+            <label for="searchtxt" class="sr-only">Search: </label>
+            <input id="searchtxt" type="text" class="form-control" placeholder="Search">
           </div>
           <button id="search-btn" type="submit" class="btn btn-default">Submit</button>
         </form>
@@ -69,58 +70,467 @@
 </div>
 <!--end header-->
 
-
-
-<div class="container-fluid">
-  <!--breadcrumb menu-->
+<!--breadcrumb menu-->
 <ol class="breadcrumb">
   <li><a href="index.html">Home</a></li>
-  <li><a href="events.html">Events</a></li>
-  <li><a href="#">Upcoming Events</a></li>
+  <li><a href="history.html">History of Partnership</a></li>
+  <li><a href="#">Consumer Advisory Council</a></li>
 </ol>
 <!--end breadcrumb menu-->
 
+<div class="container-fluid">
+  <!--breadcrumb menu-->
+<!-- <ol class="breadcrumb">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="history.html">History of Partnership</a></li>
+  <li><a href="#">Consumer Advisory Council</a></li>
+</ol>-->
+<!--end breadcrumb menu-->
+
 <!--intro-->
-<div id="recent-news" class="container-fluid">
+<div class="row">
+  <div id="consumer-intro" class="col-md-12">
+    <h2>Consumer Advisory Panel</h2>
 
-  <div class="col-md-3">
-    <ul class="list-group">
-      <li class="list-group-item disabled"><a href="events.html">Events</a></li>
-      <li class="list-group-item active"><a href="events.html">Upcoming Events</a></li>
-      <li class="list-group-item"><a href="pastevents.html">Past Events</a></li>
-    </ul>  
-  </div>
-
-  <div id="event-text" class="col-md-9">
-    <h3>Upcoming Event Headline</h3>
-    <p>November 28, 2015</p>
-    <br/>
-    <button class="btn btn-default btn-lg register-btn">Register</button>
-    <br>
-    <img src="http://placehold.it/908x410" class="event-img">
-
-    <p class="text-justify">Bacon ipsum dolor amet drumstick filet mignon boudin prosciutto. Shank prosciutto drumstick swine flank bacon rump. Venison cupim pork, tenderloin cow flank prosciutto bacon pig ribeye boudin tongue short loin. Meatloaf cow t-bone pork ham.</p>
-
-    <p class="text-justify">Meatloaf filet mignon porchetta pastrami andouille, frankfurter meatball. Bacon pork chop alcatra filet mignon ham hock porchetta salami bresaola spare ribs strip steak ground round jowl jerky ball tip leberkas. Short ribs ball tip shoulder boudin jowl beef kielbasa fatback pancetta filet mignon beef ribs ham tri-tip pork loin kevin. Tenderloin ground round rump jerky, corned beef picanha ham hock flank. Doner tri-tip bresaola, t-bone turducken tenderloin picanha meatloaf prosciutto pork belly chicken flank hamburger landjaeger.</p>
-
-    <p class="text-justify">Alcatra short ribs beef, turkey tenderloin chuck t-bone ham hock fatback swine cow pork chop bacon. Hamburger pancetta pork loin, shankle tri-tip rump short ribs salami. Beef ribs pastrami ball tip pork pig. Pastrami ball tip picanha pork belly pork chop. Beef ribs short ribs turkey, short loin capicola drumstick brisket jerky landjaeger bresaola. Ham kielbasa alcatra, pork chop chuck ground round capicola tenderloin doner tongue drumstick. Beef turkey chicken swine salami.</p>
-
-    <p class="text-justify">Shoulder hamburger rump, turkey chicken short ribs sausage prosciutto tongue sirloin pancetta ground round corned beef. Shankle tenderloin spare ribs, jerky landjaeger jowl shoulder flank bresaola prosciutto meatball strip steak. Pork belly ham beef ribs sausage hamburger picanha turkey tail landjaeger ham hock andouille swine frankfurter pancetta. Landjaeger alcatra pork belly ground round strip steak kevin jerky tri-tip, ham hock flank. Rump chuck picanha turkey. Meatloaf bacon beef brisket, tenderloin kevin beef ribs pork loin pork belly shankle capicola strip steak leberkas picanha. Pork chop rump bresaola chicken landjaeger prosciutto.</p>
-
-    <p class="text-justify">Pancetta prosciutto pork belly chuck shank alcatra ball tip cow meatball meatloaf cupim tongue spare ribs beef ribs. Drumstick pancetta landjaeger, turkey rump short loin beef ribs pork belly ham hock pork loin pork chop pig salami cow tenderloin. Doner picanha rump landjaeger tail bresaola shank kevin cupim chuck swine. Boudin turkey hamburger ribeye meatloaf. Pastrami short ribs prosciutto corned beef, spare ribs beef cow brisket ball tip fatback pancetta drumstick.</p>
+    <p class="text-justify">The Consumer Advisory Council is comprised of individuals with disabilities, family members, representatives of local and state disability agencies, and university officials. The Council assists the Partnership with the development of plans to meet the needs of individuals with disabilities and their families, and reviews program goals and direction.</p>
 
   </div>
-
 </div>
+
+
+<!--gallery-->
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Kevin W. Allison</li>
+      <li>Associate Dean for Community Activities</li>
+      <li>College of Humanities &amp; Sciences</li>
+      <li>Virginia Commonwealth University</li>
+      <li>P.O. Box 842019</li>
+      <li>Richmond, VA  23284-2019</li>
+      <li>804-828-1203</li>
+      <li>kallison@vcu.edu</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+   <ul class="pull-left">
+      <li>Paul B. Babcock</li>
+      <li>Senior Vice President</li>
+      <li>Arc of the Virginia Peninsula</li>
+      <li>2520 58th Street</li>
+      <li>Hampton, VA  23661</li>
+      <li>757-896-8424</li>
+      <li>pbabcock@arcvap.org</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Carolyn Beckett</li>
+      <li>Information Specialist</li>
+      <li>Parent Educational Advocacy Training Center (PEATC)</li>
+      <li>100 N. Washington Street, Suite 234</li>
+      <li>Falls Church, VA 22046</li>
+      <li>800-869-6782</li>
+      <li>beckett@peatc.org</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
+<hr>
+
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Jane Brown</li>
+      <li>Director of Community Partnerships</li>
+      <li>Virginia Department of Social Services</li>
+      <li>801 E. Main Street</li>
+      <li>Richmond, VA  23219</li>
+      <li>804-692-0331</li>
+      <li>jane.brown@dss.virginia.gov</li>
+      <li>jane.brown@governor.virginia.gov</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+   <ul class="pull-left">
+      <li>Nancy R. Bullock</li>
+      <li>Director, Children with Special Health Care Needs Program</li>
+      <li>Division of Child and Adolescent Health</li>
+      <li>Virginia Department of Health, James Madison Building</li>
+      <li>109 Governor Street, 8th Floor</li>
+      <li>Richmond, VA  23219</li>
+      <li>804-864-7706</li>
+      <li>Nancy.Bullock@vdh.virginia.gov</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>H. Douglas Cox</li>
+      <li>Assistant Superintendent</li>
+      <li>Division of Special Education &amp; Student Services</li>
+      <li>Virginia Department of Education</li>
+      <li>P. O. Box 2120</li>
+      <li>Richmond, VA  23218</li>
+      <li>804-225-3252</li>
+      <li>doug.cox@doe.virginia.gov</li>
+      <li>Cathy Pomfrey – 804-225-3252 or Dorothy Johnson – 804-225-2066</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
+<hr>
+
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Timothy L. Davey</li>
+      <li>Associate Dean for Community Engagement</li>
+      <li>VCU School of Social Work, MSW Program</li>
+      <li>1001 W. Franklin Street, Box 842027</li>
+      <li>Richmond, VA 23284-2027</li>
+      <li>804-827-4327</li>
+      <li>tdavey@vcu.edu</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+   <ul class="pull-left">
+      <li>Michael D. Davis</li>
+      <li>Dean, School of Education</li>
+      <li>Virginia Commonwealth University</li>
+      <li>P. O. Box 842020</li>
+      <li>Richmond, VA  23284</li>
+      <li>804-828-1305</li>
+      <li>mddavis@vcu.edu</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Geri McInerney</li>
+      <li>gmmcinerney@vcu.edu</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
+<hr>
+
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>William L. Dewey (Chair)</li>
+      <li>Professor, Department of Pharmacology and Toxicology</li>
+      <li>Virginia Commonwealth University</li>
+      <li>P. O. Box 980613</li>
+      <li>Richmond, VA  23298</li>
+      <li>804-827-0375</li>
+      <li>wdewey@mail2.vcu.edu</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+   <ul class="pull-left">
+      <li>Pat Coakley</li>
+      <li>Pcoakley@mail2.vcu.edu</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Debe Fults</li>
+      <li>disAbility Resource Center</li>
+      <li>409 Progress Street</li>
+      <li>Fredericksburg, VA  22401</li>
+      <li>540-373-2559</li>
+      <li>dfults@cildrc.org</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
+<hr>
+
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Carolyn Hawley</li>
+      <li>Assistant Professor</li>
+      <li>Department of Rehabilitation Counseling</li>
+      <li>730 E. Broad Street</li>
+      <li>Theatre Row Building, Suite 3068</li>
+      <li>P.O. Box 980330</li>
+      <li>Richmond, VA 23298</li>
+      <li>804-827-0921</li>
+      <li>cehawley@vcu.edu</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+   <ul class="pull-left">
+      <li>Erma Hill (Vice-Chair)</li>
+      <li>2414 Boyle Avenue</li>
+      <li>Richmond, VA  23230</li>
+      <li>804-497-0705</li>
+      <li>804-282-0239</li>
+      <li>Address 3</li>
+      <li>hill2c@aol.com</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Raymond E. Hopkins</li>
+      <li>Commissioner</li>
+      <li>Virginina Department for the Blind and Vision Impaired</li>
+      <li>397 Azalea Avenue</li>
+      <li>Richmond, VA  23227</li>
+      <li>804-371-3121</li>
+      <li>raymond.hopkins@dbvi.virginia.gov</li>
+      <li>Email</li>
+      <li>Assistant - Henry Street</li>
+      <li>804-371-3121</li>
+      <li>henry.street@dbvi.virginia.gov</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
+<hr>
+
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Vivian Horn</li>
+      <li>Senior Policy Analyst</li>
+      <li>Policy and Research Division</li>
+      <li>Department of Medical Assistance Services</li>
+      <li>600 E. Broad Street, Suite 1300</li>
+      <li>Richmond, VA 23219</li>
+      <li>804-786-0527</li>
+      <li>Vivian.Horn@dmas.virginia.gov</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+   <ul class="pull-left">
+      <li>Bryan Lacy</li>
+      <li>1101 Hampton St., Room 210</li>
+      <li>Richmond, VA 23220</li>
+      <li>804-355-5229</li>
+      <li>b.k.lacy@worldnet.att.net</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Ronald L. Lanier</li>
+      <li>Director</li>
+      <li>Virginia Department for the Deaf &amp; Hard of Hearing</li>
+      <li>1602 Rolling Hills Dr., Suite 203</li>
+      <li>Richmond, VA 23229-5012</li>
+      <li>804-662-9502 TTY/Voice</li>
+      <li>800-552-7917 TTY/Voice</li>
+      <li>804-662-9718 FAX</li>
+      <li>Ronald.Lanier@vddhh.virginia.gov</li>
+      <li>www.vddhh.org</li>
+      <li>Assistant - Elaine</li>
+      <li>804-662-9705</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
+<hr>
+
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Heidi Lawyer</li>
+      <li>Director</li>
+      <li>Virginia Board for People with Disabilities</li>
+      <li>1100 Bank Street, 7th Floor</li>
+      <li>Washington Office Building</li>
+      <li>Richmond, VA  23219</li>
+      <li>804-786-9369</li>
+      <li>heidi.lawyer@vbpd.virginia.gov</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+   <ul class="pull-left">
+      <li>Katherine Olson</li>
+      <li>Self-Advocate Coordinator</li>
+      <li>Department</li>
+      <li>The Arc of Virginia</li>
+      <li>2025 E. Main Street, Suite 107</li>
+      <li>Richmond, VA 23233</li>
+      <li>804-649-8481, Ext. 100</li>
+      <li>kolson@thearcofva.org</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Lee Price</li>
+      <li>Director, Developmental Services</li>
+      <li>Virginia Department of Behavioral Health and Developmental Services</li>
+      <li>P.O. Box 1797</li>
+      <li>Richmond, VA 23218-1797</li>
+      <li>804-786-5850</li>
+      <li>lee.price@dbhds.virginia.gov</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
+<hr>
+
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Katie Roeper</li>
+      <li>Assistant Commissioner</li>
+      <li>Virginia Department for the Aging</li>
+      <li>1610 Forest Avenue, Suite 100</li>
+      <li>Richmond, VA  23229</li>
+      <li>804-662-7047</li>
+      <li>Katie.Roeper@vda.virginia.gov</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+   <ul class="pull-left">
+      <li>James A. Rothrock</li>
+      <li>Commissioner</li>
+      <li>Virginia Department of Rehabilitative Services</li>
+      <li>8004 Franklin Farms Drive</li>
+      <li>Richmond, VA  23229</li>
+      <li>804-662-7010</li>
+      <li>jim.rothrock@drs.virginia.gov</li>
+    </ul>
+
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Barbara Tyson</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
+<hr>
+
+<div id="consumer-gallery" class="row">
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Lisa Shehi</li>
+      <li>Executive Assistant</li>
+      <li>Virginia Office for Protection and Advocacy</li>
+      <li>1910 Byrd Ave., Ste. 5</li>
+      <li>Richmond, VA  23230</li>
+      <li>804-662-7213</li>
+      <li>Lisa.shehi@vopa.virginia.gov</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Rose Stith Singleton</li>
+      <li>900 East Marshall St.</li>
+      <li>Richmond, VA  23219</li>
+      <li>804-205-3684</li>
+      <li>singlers@ci.richmond.va.us</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+
+  <div class="col-md-4">
+    <ul class="pull-left">
+      <li>Shelton Stevens</li>
+      <li>1037 Bismarck Crescent</li>
+      <li>Portsmouth, VA  23707</li>
+      <li>757-397-0050</li>
+    </ul>
+    
+    <!-- <img class="img-responsive" src="http://placehold.it/140"> -->
+  </div>
+</div>
+
 
 <!--footer-->
 <footer>
   <div id="footer-top" class="row">
     <!--footer address-->
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="row">
         <div id="contact">
-          <h2 class="text-left">Partnership for People with Disabilities</h2>
+          <h3 class="text-left">Partnership for People with Disabilities</h3>
           <address class="text-left">
           700 East Franklin Street<br/>
           1st Floor, Suite 140<br/>
@@ -133,9 +543,20 @@
     </div>
     <!--end footer address area-->
 
+    <!--T/TAC header-->
+    <div class="col-md-4">
+      <h3>Training and Technical Assistance Center</h3>
+       <address class="text-left">
+          700 East Franklin Street<br/>
+          1st Floor, Suite 140<br/>
+          Richmond, Virginia 23219<br/>
+          <strong>Phone: </strong>804-828-3876 (Voice)<br/>
+        </address>
+    </div>
+
     <!--more ways to get in touch-->
-    <div class="col-md-6">
-      <h2>More Ways To Get In Touch</h2>
+    <div class="col-md-4">
+      <h3>More Ways To Get In Touch</h3>
       <address id="more-contact">
           <strong>Email Us: </strong> bjpiguet@vcu.edu<br/>
           800-828-1120 (TDD Relay)<br/>
@@ -151,10 +572,10 @@
     <!--school and department links-->
     <div class="col-md-4">
       <ul id="school-links">
-        <li>Virginia Commonwealth University</li>
-        <li>School of Education</li>
-        <li>PPD Intranet</li>
-        <li>HR Announcements</li>
+        <li><a href="http://www.vcu.edu">Virginia Commonwealth University</a></li>
+        <li><a href="http://www.soe.vcu.edu">School of Education</a></li>
+        <li><a href="http://www.pubinfo.vcu.edu/partnership2/default.asp">PPD Intranet</a></li>
+        <li><a href="http://wp.vcu.edu/fiscalandhr/">HR Announcements</a></li>
         <li>Last Updated 11/2/2015</li>
       </ul>
     </div>
@@ -162,7 +583,7 @@
     <!--footer menu-->
     <div class="col-md-4">
       <ul id="footer-menu">
-        <li><a href="#mission-values">Mission and Values</a></li>
+        <li><a href="index.html/#welcome">Mission and Values</a></li>
         <li><a href="#news-events">News and Events</a></li>
         <li><a href="#programs">Our Programs</a></li>
         <li><a href="#education-training">Education and Training</a></li>
@@ -174,7 +595,7 @@
       <ul id="social">
         <li>
           <h3>Social Media</h3></li>
-        <li><i class="fa fa-facebook"></i></li>
+        <li><a href="https://www.facebook.com/pages/Partnership-for-People-with-Disabilities/411203095631256"><i class="fa fa-facebook"></i></a></li>
       </ul>
     </div>
 
