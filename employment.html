@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="google" value="notranslate">
@@ -42,15 +42,16 @@
       <!-- Collect the nav links, forms, and other content for mobile menu toggle -->
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <div class="nav navbar-nav">
-          <button class="btn btn-default" type="button">Home</button>
-          <button class="btn btn-default" type="button">Mission and Values</button>
-          <button class="btn btn-default" type="button">News and Events</button>
-          <button class="btn btn-default" type="button">Our Programs</button>
-          <button class="btn btn-default" type="button">Education and Training</button>
+          <a href="/#vcuIdentity" class="btn btn-default" role="button">Home</a>
+          <a href="/#welcome" class="btn btn-default" role="button">Mission and Values</a>
+          <a href="/#news-events" class="btn btn-default" role="button">News and Events</a>
+          <a href="/#programs" class="btn btn-default" role="button">Our Programs</a>
+          <a href="/#education-training" class="btn btn-default" role="button">Education and Training</a>
         </div>
         <form class="navbar-form navbar-left" role="search">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
+            <label for="searchtxt" class="sr-only">Search: </label>
+            <input type="text" id="searchtxt" class="form-control" placeholder="Search">
           </div>
           <button id="search-btn" type="submit" class="btn btn-default">Submit</button>
         </form>
@@ -70,15 +71,15 @@
 <!--end header-->
 
 
-
-<div class="container-fluid">
-  <!--breadcrumb menu-->
+<!--breadcrumb menu-->
 <ol class="breadcrumb">
   <li><a href="index.html">Home</a></li>
   <li><a href="history.html">History of Partnership</a></li>
   <li><a href="#">Employment Opportunities</a></li>
 </ol>
 <!--end breadcrumb menu-->
+
+<div class="container-fluid">
 
 <!--intro-->
 <div id="employment" class="container-fluid">
@@ -100,10 +101,10 @@
 <footer>
   <div id="footer-top" class="row">
     <!--footer address-->
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="row">
         <div id="contact">
-          <h2 class="text-left">Partnership for People with Disabilities</h2>
+          <h3 class="text-left">Partnership for People with Disabilities</h3>
           <address class="text-left">
           700 East Franklin Street<br/>
           1st Floor, Suite 140<br/>
@@ -116,9 +117,20 @@
     </div>
     <!--end footer address area-->
 
+    <!--T/TAC header-->
+    <div class="col-md-4">
+      <h3>Training and Technical Assistance Center</h3>
+       <address class="text-left">
+          700 East Franklin Street<br/>
+          1st Floor, Suite 140<br/>
+          Richmond, Virginia 23219<br/>
+          <strong>Phone: </strong>804-828-3876 (Voice)<br/>
+        </address>
+    </div>
+
     <!--more ways to get in touch-->
-    <div class="col-md-6">
-      <h2>More Ways To Get In Touch</h2>
+    <div class="col-md-4">
+      <h3>More Ways To Get In Touch</h3>
       <address id="more-contact">
           <strong>Email Us: </strong> bjpiguet@vcu.edu<br/>
           800-828-1120 (TDD Relay)<br/>
@@ -134,10 +146,10 @@
     <!--school and department links-->
     <div class="col-md-4">
       <ul id="school-links">
-        <li>Virginia Commonwealth University</li>
-        <li>School of Education</li>
-        <li>PPD Intranet</li>
-        <li>HR Announcements</li>
+        <li><a href="http://www.vcu.edu">Virginia Commonwealth University</a></li>
+        <li><a href="http://www.soe.vcu.edu">School of Education</a></li>
+        <li><a href="http://www.pubinfo.vcu.edu/partnership2/default.asp">PPD Intranet</a></li>
+        <li><a href="http://wp.vcu.edu/fiscalandhr/">HR Announcements</a></li>
         <li>Last Updated 11/2/2015</li>
       </ul>
     </div>
@@ -145,7 +157,7 @@
     <!--footer menu-->
     <div class="col-md-4">
       <ul id="footer-menu">
-        <li><a href="#mission-values">Mission and Values</a></li>
+        <li><a href="#welcome">Mission and Values</a></li>
         <li><a href="#news-events">News and Events</a></li>
         <li><a href="#programs">Our Programs</a></li>
         <li><a href="#education-training">Education and Training</a></li>
@@ -157,7 +169,7 @@
       <ul id="social">
         <li>
           <h3>Social Media</h3></li>
-        <li><i class="fa fa-facebook"></i></li>
+        <li><a href="https://www.facebook.com/pages/Partnership-for-People-with-Disabilities/411203095631256"><i class="fa fa-facebook"></i></a></li>
       </ul>
     </div>
 
@@ -166,6 +178,7 @@
 
 </footer>
 <!--end footer-->
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
