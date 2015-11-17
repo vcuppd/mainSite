@@ -1,0 +1,81 @@
+<!--footer-->
+<footer class="container-fluid">
+  <div id="footer-top" class="row">
+    <!--footer address-->
+    <div class="col-md-4">
+      <div class="row">
+        <div id="contact">
+          <h3 class="text-left">Partnership for People with Disabilities</h3>
+          <address class="text-left">
+          700 East Franklin Street<br/>
+          1st Floor, Suite 140<br/>
+          Richmond, Virginia 23219<br/>
+          <strong>Phone: </strong>804-828-3876 (Voice)<br/>
+          Directions and Parking
+        </address>
+        </div>
+      </div>
+    </div>
+    <!--end footer address area-->
+
+    <!--T/TAC header-->
+    <div class="col-md-4">
+      <h3>Training and Technical Assistance Center</h3>
+       <address class="text-left">
+          700 East Franklin Street<br/>
+          1st Floor, Suite 140<br/>
+          Richmond, Virginia 23219<br/>
+          <strong>Phone: </strong>804-828-3876 (Voice)<br/>
+        </address>
+    </div>
+
+    <!--more ways to get in touch-->
+    <div class="col-md-4">
+      <h3>More Ways To Get In Touch</h3>
+      <address id="more-contact">
+          <strong>Email Us: </strong> bjpiguet@vcu.edu<br/>
+          800-828-1120 (TDD Relay)<br/>
+          Send Us Your Feedback<br/>
+        </address>
+    </div>
+    <!--end more ways to get in touch area-->
+  </div>
+
+  <!--footer bottom-->
+  <div id="footer-bottom" class="row">
+
+    <!--school and department links-->
+    <div class="col-md-4">
+      <ul id="school-links">
+        <li><a href="http://www.vcu.edu">Virginia Commonwealth University</a></li>
+        <li><a href="http://www.soe.vcu.edu">School of Education</a></li>
+        <li><a href="http://www.pubinfo.vcu.edu/partnership2/default.asp">PPD Intranet</a></li>
+        <li><a href="http://wp.vcu.edu/fiscalandhr/">HR Announcements</a></li>
+        <li>Last Updated 11/2/2015</li>
+      </ul>
+    </div>
+
+    <!--footer menu-->
+    <div class="col-md-4">
+      <ul id="footer-menu">
+        <li><a href="#welcome">Mission and Values</a></li>
+        <li><a href="#news-events">News and Events</a></li>
+        <li><a href="#programs">Our Programs</a></li>
+        <li><a href="#education-training">Education and Training</a></li>
+      </ul>
+    </div>
+
+    <!--social media-->
+    <div class="col-md-4">
+      <ul id="social">
+        <li>
+          <h3>Social Media</h3></li>
+        <li><a href="https://www.facebook.com/pages/Partnership-for-People-with-Disabilities/411203095631256"><i class="fa fa-facebook"></i></a></li>
+      </ul>
+    </div>
+
+  </div>
+  <!--end footer bottom-->
+
+</footer>
+<!--end footer-->
