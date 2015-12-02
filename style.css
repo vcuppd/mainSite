@@ -1,3 +1,69 @@
+/*--General Styles--*/
+#text-adjust {
+  float: right;
+  padding-top: 10px;
+  padding-right: 190px;
+}
+
+a {
+  color: #005883;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:visited{
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover{
+  color: #005883;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+.container-fluid{
+  padding-bottom: 30px;
+}
+
+.row-adjust{
+  margin-left: -5px;
+}
+
+.navbar-default, #myCarousel{
+  border-bottom: #644764 solid 2px;
+}
+
+#learn-more-list,
+#training-list {
+  list-style: none;
+  margin-left: 10px;
+}
+
+#learn-more-list li,
+#training-list li {
+  padding-bottom: 5px;
+}
+
+.list-group {
+  margin: 0px 50px;
+}
+
+.list-group-item {
+  padding: 25px 15px;
+  margin: 0px 20px;
+  border: 1px solid #644764;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Site Header--*/
 #logo {
   padding: 10px;
 }
@@ -7,26 +73,10 @@
   margin: 0px;
 }
 
-#text-adjust {
-  float: right;
-  padding-top: 10px;
-  padding-right: 190px;
-}
+/*-------------------------------------------------------
+---------------------------------------------------------*/
 
-a, a:visited, a:active {
-  color: #000;
-  text-decoration: none;
-}
-
-a:hover{
-  color: blue;
-  text-decoration: none;
-}
-
-.container {
-  padding-top: 10px;
-}
-
+/*--Navigation Styles--*/
 /*Removes space above menu*/
 .navbar {
   background-color: #eff6f9; /*original color: #B5D6E7*/
@@ -57,39 +107,22 @@ a:hover{
   margin-top: -8px;
 }
 
-/*Possibly menu slide option*/
-/*.isStuck .navbar-inverse .navbar-nav>.active>a, .isStuck .navbar-inverse .navbar-nav>.active>a:focus{
-  background: #181a1c;
-  color:#fff ;
-}
-.isStuck .navbar.navbar-inverse.navbar-static-top a:hover{
-  background:#181a1c;
-  color:#fff;
-}
-.isStuck .navbar.navbar-inverse.navbar-static-top a{
-  color:#000;
+.breadcrumb{
+  margin-top: -20px;
+  border-top: #644764 solid 2px;
 }
 
-.stuckMenu{
-  -o-transition: all .5s;
-    -ms-transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-  
-  background: transparent;
+.breadcrumb a, 
+.breadcrumb a:visited, 
+.breadcrumb a:hover, 
+.breadcrumb a:active{
+  color: #000;
 }
-.isStuck{
-  background:#ff554e ;
-  
-  -o-transition: all .5s;
-    -ms-transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-}*/
 
+/*-------------------------------------------------------
+---------------------------------------------------------*/
 
+/*--Image Slider Styles--*/
 /*Remove space btwn carousel and menu*/
 .carousel {
   top: -20px;
@@ -102,24 +135,18 @@ a:hover{
   background-color: #644764;
 }
 
+.carousel-indicators{
+  display: none;
+}
+
 /*Centers carousel image*/
 .carousel-inner > .item > img {
   margin: 0 auto;
 }
 
-/*.navbar-default,
-#myCarousel,
-#welcome,
-#news-events,
-#programs,
-#education-training {
-  border-bottom: #000 solid 3px; /*for layout - delete later
-}*/
 
-.navbar-default, #myCarousel{
-  border-bottom: #644764 solid 4px;
-}
 
+/*--Mission and Values Styles--*/
 #welcome{
   background-color: #fefefe;
 }
@@ -129,9 +156,9 @@ a:hover{
   margin-bottom: 20px;
 }
 
-#welcome-text
-/*#news*/ {
-  border-right: #eee solid 5px;
+#welcome-text{
+  border-right: #644764 solid 5px;
+  margin-bottom: 20px;
 }
 
 #welcome p,
@@ -145,7 +172,7 @@ img {
 }
 
 #directorPhoto {
-  padding: 5px 12px;
+  padding: 12px;
 }
 
 #mission-title,
@@ -161,21 +188,14 @@ img {
   margin-top: 25px;
 }
 
-#learn-more-list,
-#training-list {
-  list-style: none;
-  margin-left: 10px;
+#missionReturnToTop{
+  padding-top: 175px;
 }
 
-#learn-more-list li,
-#training-list li {
-  padding-bottom: 5px;
-}
+/*-------------------------------------------------------
+---------------------------------------------------------*/
 
-#training-text{
-  margin-left: 75px;
-}
-
+/*--News and Events Styles--*/
 #news-events, #education-training{
   background-color: rgba(239, 246, 249, 0.71);
 }
@@ -187,20 +207,25 @@ img {
   border-bottom: #644764 solid 4px;
 }
 
+#events{
+  padding-bottom: 30px;
+}
+
 #news img,
 #events img {
   margin: 0px 15px 0px 0px;
 }
 
-.list-group {
-  margin: 0px 50px;
+#newseventsReturnToTop{
+  margin-right: 80px;
 }
 
-.list-group-item {
-  padding: 25px 15px;
-  margin: 0px 20px;
-}
 
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--Our Programs Styles--*/
 #programs{
   border-bottom: #644764 solid 4px;
   padding-top: -10px;
@@ -211,6 +236,14 @@ img {
   margin-top: 20px;
 }
 
+#programsReturnToTop{
+  margin-right: 80px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Education and Training Programs--*/
 #education-training{
   padding: 10px 0 20px 0;
 }
@@ -219,6 +252,10 @@ img {
 #health p,
 #family p {
   margin: 15px 90px;
+}
+
+#training-text{
+  margin-left: 75px;
 }
 
 #training p {
@@ -233,6 +270,14 @@ img {
   padding-top: 5px;
 }
 
+#edtrainingReturnToTop{
+  margin-right: 80px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Footer--*/
 footer{
   color: #fff;
   background-color: #644764;
@@ -278,30 +323,10 @@ footer a:hover,
   color: #fff;
 }
 
-/*Box Shadows for Home Page*/
-/*#welcome, #programs{
-  -webkit-box-shadow: 0px 17px 24px -5px rgba(0,0,0,0.38);
-  -moz-box-shadow: 0px 17px 24px -5px rgba(0,0,0,0.38);
-  box-shadow: 0px 17px 24px -5px rgba(0,0,0,0.38);
-}
+/*-------------------------------------------------------
+---------------------------------------------------------*/
 
-.navbar-default,
-#myCarousel,
-#news-events,
-#education-training{
-  -webkit-box-shadow: 0px 17px 24px -11px rgba(0,0,0,0.67);
-  -moz-box-shadow: 0px 17px 24px -11px rgba(0,0,0,0.67);
-  box-shadow: 0px 17px 24px -11px rgba(0,0,0,0.67);
-}*/
-
-.breadcrumb{
-  margin-top: 0px;
-}
-
-.breadcrumb a, a:visited, a:hover, a:active{
-  color: #000;
-}
-
+/*--Consumer Advisory Council--*/
 #consumer-intro{
   border-bottom: #eee solid 3px;
 }
@@ -316,8 +341,15 @@ footer a:hover,
 
 #consumer-gallery ul li{
   padding-right: 20px;
+  padding-bottom: 8px;
   list-style: none;
+
 }
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Employment Opportunities Syles--*/
 
 #employment{
   margin-bottom: 150px;
@@ -328,11 +360,12 @@ footer a:hover,
   padding-bottom: 15px;
 }
 
-.article-event-intro{
-  padding-right: 300px;
-  padding-bottom: 15px;
-}
 
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--News and Events Styles--*/
 .article-event-intro a, a:active {
   color: #337ab7;
 }
@@ -376,4 +409,110 @@ footer a:hover,
 
 .program-contact{
   padding-left: 15px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Products Styles--*/
+
+#products{
+  margin-bottom: 30px;
+}
+
+.product-img{
+  width: 225px;
+  height: 220px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.dl-btn{
+  margin-top: 12px;
+}
+
+.pubs-icon{
+  font-size: 40px;
+}
+
+.pubs-row-adjust{
+  margin: 15px 50px 20px 50px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--Publications Styles--*/
+#annual ul li, 
+#newsletter ul li, 
+#other-pubs ul li
+{
+  padding-bottom: 10px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--Dontation Styles--*/
+#support-txt{
+  border-right: #644764 solid 5px;
+  padding-right: 50px;
+}
+
+#donate-contact{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#donate-address{
+  padding-left: 50px;
+}
+
+#donations{
+  margin-bottom: 50px;
+}
+
+.donate-divider{
+  border: #644764 solid 2px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--Resources Styles--*/
+#general, 
+#federal, 
+#state{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Feedback Form Styles--*/
+#feedback-form{
+  margin: 30px 0px;
+}
+
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Staff Styles--*/
+#staff-select ul{
+  list-style-type: none;
+}
+
+#staff-select li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 22px;
+}
+
+#staff-select a{
+  color: #644764;
 }
