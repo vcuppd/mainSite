@@ -281,6 +281,7 @@ img {
 footer{
   color: #fff;
   background-color: #644764;
+  padding-left: 30px;
 }
 
 footer a{
@@ -456,6 +457,10 @@ footer a:hover,
 
 
 /*--Dontation Styles--*/
+#donate-intro{
+  padding-bottom: 35px;
+}
+
 #support-txt{
   border-right: #644764 solid 5px;
   padding-right: 50px;
