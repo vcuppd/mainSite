@@ -104,28 +104,29 @@ a:hover{
   border: none;
 }
 
-.navbar .nav {
-  margin-bottom: 20px;
+.navbar .nav .btn{
+/*  margin-bottom: 20px;*/
+  margin-right: 6px;
 }
 
 .navbar-collapse {
-  padding-left: 170px;
+/*  padding-left: 170px;*/
 }
 
-.navbar-header .btn {
-  margin-right: 5px;
-}
+/*.navbar-header .btn {
+  margin-right: 15px;
+}*/
   
 /*Lines up search input with menu*/
-.form-group {
+/*.form-group {
   margin-top: -8px;
-}
+}*/
 
 /*Lines up search button with input*/
-#search-btn {
+/*#search-btn {
   margin-left: -5px;
   margin-top: -8px;
-}
+}*/
 
 .breadcrumb{
   margin-top: -20px;
