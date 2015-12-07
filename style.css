@@ -68,6 +68,11 @@ a:hover{
   padding: 10px;
 }
 
+#logo2{
+  display: block;
+  margin: 0 auto;
+}
+
 #header {
   background-color: #eff6f9; /*original color: #B5D6E7*/
   margin: 0px;
