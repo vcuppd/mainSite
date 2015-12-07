@@ -71,11 +71,26 @@ a:hover{
 #logo2{
   display: block;
   margin: 0 auto;
+  height: 160px;
+  padding: 10px;
+}
+
+#logo3{
+  height: 235px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 #header {
   background-color: #eff6f9; /*original color: #B5D6E7*/
   margin: 0px;
+}
+
+#text-adjust {
+  float: right;
+  padding-top: 10px;
+  padding-right: 40px;
 }
 
 /*-------------------------------------------------------
