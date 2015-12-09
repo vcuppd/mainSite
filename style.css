@@ -168,6 +168,18 @@ a:hover{
   background-color: #ccc;
 }
 
+.breadcrumb{
+  margin-top: -20px;
+  border-top: #644764 solid 2px;
+}
+
+.breadcrumb a, 
+.breadcrumb a:visited, 
+.breadcrumb a:hover, 
+.breadcrumb a:active{
+  color: #000;
+}
+
 /*.navbar-collapse {
   padding-left: 170px;
 }*/
@@ -188,17 +200,6 @@ a:hover{
 }*/
 
 
-.breadcrumb{
-  margin-top: -20px;
-  border-top: #644764 solid 2px;
-}
-
-.breadcrumb a, 
-.breadcrumb a:visited, 
-.breadcrumb a:hover, 
-.breadcrumb a:active{
-  color: #000;
-}
 
 /*-------------------------------------------------------
 ---------------------------------------------------------*/
@@ -224,7 +225,15 @@ a:hover{
 .carousel-inner > .item > img {
   margin: 0 auto;
 }
+ 
 
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
 
 
 /*--Mission and Values Styles--*/
