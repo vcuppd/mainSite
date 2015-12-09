@@ -89,8 +89,27 @@ a:hover{
 
 #text-adjust {
   float: right;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-right: 40px;
+}
+
+#search-icon {
+  padding-top: 18px;
+  padding-right: 10px;
+}
+
+.search-area {
+  border-top: #000 solid 1px;
+  box-sizing: border-box;
+  background-color: #eff6f9;
+}
+
+.search-area .form-group {
+  float:right;padding:15px 0;
+}
+
+.search-area .form-group input {
+  width:300px;border:none;outline:0;margin-right:5px;
 }
 
 /*-------------------------------------------------------
@@ -109,9 +128,49 @@ a:hover{
   margin-right: 6px;
 }
 
-.navbar-collapse {
-/*  padding-left: 170px;*/
+.nav>li>a:hover {
+    text-decoration: none;
+    /*background-color: #f4e1f4;*/
+    background-color: transparent;;
 }
+
+.navbar .navbar-brand {
+  color: #000;
+}
+
+.navbar .navbar-header>a:hover {
+  color: #9d9d9d;
+}
+
+.navbar-inverse {
+  color: #000;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #9d9d9d;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar  {
+  color: #8B8B8B;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #ccc;
+}
+
+/*.navbar-collapse {
+  padding-left: 170px;
+}*/
 
 /*.navbar-header .btn {
   margin-right: 15px;
@@ -127,6 +186,7 @@ a:hover{
   margin-left: -5px;
   margin-top: -8px;
 }*/
+
 
 .breadcrumb{
   margin-top: -20px;
